@@ -1,0 +1,63 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #b2bd175d;
+}
+
+/***************section dentro del header**************/  
+div.titulos{
+  display: block;
+  padding: 20px ; 
+  text-align: center;
+}
+h1 {font-size: 25px;font-weight: bold;}
+h2 {font-size: 15px;}
+
+/***************seccion ingreso de texto***********/
+.ingresos {
+  display: inline;
+  align-content: center;
+}
+.fotos {
+  width: 10%;
+} 
+.cajaing {
+  width: 80%;
+  height: 120px;
+}
+
+/****************seccion botones***********/
+  .interfaz{
+    display: inline;
+    width: 90%;
+    margin-left: 70px;
+    height:auto;
+    align-self : center;
+  }
+
+  .boton  {
+    padding: 4px 4px 4px 4px;
+    width: 10%;
+    font-size:large;
+
+    margin-top: 50px;
+    margin-left: 200px;
+    align-items: center;
+    background-color: rgb(212, 208, 145);
+    border-radius: 30px;
+  }
+
+  .boton:hover {
+    background-color: rgba(2, 49, 255, 0.924);
+    color: aqua;
+  }
+
+/****************seccion footer***********/
+.copyright{
+  margin-top: 50px;
+  padding: 8px;
+  width: 90%;
+  font-family: 'Times New Roman';
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
